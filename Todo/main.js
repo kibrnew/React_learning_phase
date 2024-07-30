@@ -41,7 +41,7 @@ document.querySelector('#addTask').addEventListener('click', function () {
 
         const removeButton = document.createElement('button');
         removeButton.className = 'remove-btn';
-        removeButton.textContent = 'X';
+        removeButton.textContent = 'Delete';
         removeButton.addEventListener('click', function () {
             taskList.removeChild(listItem);
         });
