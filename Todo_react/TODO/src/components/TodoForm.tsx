@@ -4,7 +4,7 @@ interface TodoFormProps {
   onAddTodo: (text: string) => void;
 }
 
-const TodoForm: React.FC<TodoFormProps> = ({ onAddTodo }) => {
+function TodoForm ({ onAddTodo }:TodoFormProps)  {
   const [newTodo, setNewTodo] = useState<string>('');
 
   const handleSubmit = (e: React.FormEvent) => {
