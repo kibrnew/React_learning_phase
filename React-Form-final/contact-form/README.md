@@ -21,27 +21,27 @@ To run this project, you need Node.js and npm (Node Package Manager) installed o
 
 1. **Clone the repository**:
 
-    ```bash
-    git clone https://github.com/kibrnew/React_learning_phase.git
-    ```
+   ```bash
+   git clone https://github.com/kibrnew/React_learning_phase.git
+   ```
 
 2. **Navigate to the project directory**:
 
-    ```bash
-    cd React_learning_phase/React-Form-final/contact-form
-    ```
+   ```bash
+   cd React_learning_phase/React-Form-final/contact-form
+   ```
 
 3. **Install the dependencies**:
 
-    ```bash
-    npm install
-    ```
+   ```bash
+   npm install
+   ```
 
 4. **Start the application**:
 
-    ```bash
-    npm start
-    ```
+   ```bash
+   npm start
+   ```
 
 ## Usage
 
@@ -56,17 +56,13 @@ To run this project, you need Node.js and npm (Node Package Manager) installed o
 
 ### Screenshots
 
-#### Form Interface
-
-![Form Interface](screenshots/form.png)
-
 #### Form with Validation Errors
 
-![Form with Validation Errors](screenshots/error.png)
+![validation error](https://github.com/user-attachments/assets/7520b8fb-110e-477e-9d04-6a3bc899e28f)
 
 #### Successful Submission
 
-![Successful Submission](screenshots/success.png)
+![validation success](https://github.com/user-attachments/assets/8afb34d9-a497-4040-be6c-8f1c351d7646)
 
 ## Contributing
 
@@ -75,22 +71,22 @@ If you would like to contribute to this project, please follow these steps:
 1. **Fork the repository**.
 2. **Create a new branch**:
 
-    ```bash
-    git checkout -b feature-branch
-    ```
+   ```bash
+   git checkout -b feature-branch
+   ```
 
 3. **Make your changes**.
 4. **Commit your changes**:
 
-    ```bash
-    git commit -m 'Add new feature'
-    ```
+   ```bash
+   git commit -m 'Add new feature'
+   ```
 
 5. **Push to the branch**:
 
-    ```bash
-    git push origin feature-branch
-    ```
+   ```bash
+   git push origin feature-branch
+   ```
 
 6. **Open a pull request**.
 
