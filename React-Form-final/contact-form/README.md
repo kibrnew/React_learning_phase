@@ -1,30 +1,99 @@
-# React + TypeScript + Vite
+# Contact Form Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This project is a simple contact form application built using React, TypeScript, and CSS. The application allows users to submit their contact information, including name, email, and a message. The form includes validation to ensure that all fields are correctly filled out before submission.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Name**: Users can enter their name. This field is required.
+- **Email**: Users can enter their email address. This field is required and must be in a valid email format.
+- **Message**: Users can enter a message. This field is required.
+- **Form Validation**: The form will display error messages for any invalid or empty fields.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Getting Started
 
-- Configure the top-level `parserOptions` property like this:
+### Prerequisites
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+To run this project, you need Node.js and npm (Node Package Manager) installed on your machine.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Installation
+
+1. **Clone the repository**:
+
+    ```bash
+    git clone https://github.com/kibrnew/React_learning_phase.git
+    ```
+
+2. **Navigate to the project directory**:
+
+    ```bash
+    cd React_learning_phase/React-Form-final/contact-form
+    ```
+
+3. **Install the dependencies**:
+
+    ```bash
+    npm install
+    ```
+
+4. **Start the application**:
+
+    ```bash
+    npm start
+    ```
+
+## Usage
+
+### Submitting the Form
+
+1. Open the application in your web browser at `http://localhost:3000`.
+2. Fill in the form fields:
+   - Enter your name in the "Name" field.
+   - Enter your email address in the "Email" field.
+   - Enter your message in the "Message" field.
+3. Click the "Submit" button to send the form. If there are any validation errors, they will be displayed next to the respective fields.
+
+### Screenshots
+
+#### Form Interface
+
+![Form Interface](screenshots/form.png)
+
+#### Form with Validation Errors
+
+![Form with Validation Errors](screenshots/error.png)
+
+#### Successful Submission
+
+![Successful Submission](screenshots/success.png)
+
+## Contributing
+
+If you would like to contribute to this project, please follow these steps:
+
+1. **Fork the repository**.
+2. **Create a new branch**:
+
+    ```bash
+    git checkout -b feature-branch
+    ```
+
+3. **Make your changes**.
+4. **Commit your changes**:
+
+    ```bash
+    git commit -m 'Add new feature'
+    ```
+
+5. **Push to the branch**:
+
+    ```bash
+    git push origin feature-branch
+    ```
+
+6. **Open a pull request**.
+
+## License
+
+This project is licensed under the MIT License.
