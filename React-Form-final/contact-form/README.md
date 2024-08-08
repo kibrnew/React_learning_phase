@@ -90,6 +90,3 @@ If you would like to contribute to this project, please follow these steps:
 
 6. **Open a pull request**.
 
-## License
-
-This project is licensed under the MIT License.
