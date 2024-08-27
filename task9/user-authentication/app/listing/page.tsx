@@ -57,7 +57,7 @@ export default async function Home() {
 
         {jobs.map((job, index) => (
           // <Link href={`../listing/detail/${job.id}`} key={job.id}>
-            <JobCard job={job} key={job.id} />
+          <JobCard job={job} key={job.id} />
           // </Link>
         ))}
       </div>

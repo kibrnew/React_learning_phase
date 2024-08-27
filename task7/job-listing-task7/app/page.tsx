@@ -7,19 +7,21 @@ import { DownIcon } from "@/lib/icons";
 import { epilogue } from "./layout";
 import { ApiResponse } from "@/types/ApiResponse";
 
-
 async function getData(): Promise<ApiResponse<JobType[]>> {
-  const res = await fetch("https://akil-backend.onrender.com/opportunities/search");
+  const res = await fetch(
+    "https://akil-backend.onrender.com/opportunities/search"
+  );
   const data = await res.json();
   return data;
 }
-
 
 export default async function Home() {
   const jobs: JobType[] = (await getData()).data;
   return (
     <>
-      <div className={`w-[80%] mx-auto flex flex-col gap-5 ${epilogue.className}`}>
+      <div
+        className={`w-[80%] mx-auto flex flex-col gap-5 ${epilogue.className}`}
+      >
         <div className="flex justify-between items-center px-8">
           <div>
             <h1 className="font-black text-2xl">Opportunities</h1>
@@ -27,7 +29,9 @@ export default async function Home() {
           </div>
           <div className="flex">
             <div className="text-gray-400 mx-2 ">Sort by:</div>{" "}
-            <div className="font-medium flex items-center">Most relevant {<DownIcon />}</div>
+            <div className="font-medium flex items-center">
+              Most relevant {<DownIcon />}
+            </div>
           </div>
         </div>
 
