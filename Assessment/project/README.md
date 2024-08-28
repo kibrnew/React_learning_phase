@@ -47,6 +47,16 @@ The blog data structure is defined in the `types/index.ts` file. This includes f
 
 This application expects blog data from an external API. Ensure your API is correctly configured and returns the expected JSON structure.
 
+### Screenshots
+
+Below are screenshots showing different parts of the application:
+
+![blog](https://github.com/user-attachments/assets/aba4b0eb-7ac3-4799-95cb-471ee7848c92)
+![detail_page1](https://github.com/user-attachments/assets/cb3f1e3b-9904-47a6-b48a-911c3958d262)
+![detail_page2](https://github.com/user-attachments/assets/253313e5-d13f-4d4c-ade9-7b1708420831)
+![landing](https://github.com/user-attachments/assets/2afbc8e1-7963-4803-8af4-f426e3126301)
+![login](https://github.com/user-attachments/assets/e091972e-344f-4d5a-aa86-4a8ce277358d)
+
 ### Deployment
 
 Deploy this application using Vercel by linking your GitHub repository. Vercel automatically deploys the project and provides a live URL.
