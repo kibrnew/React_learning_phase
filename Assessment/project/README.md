@@ -61,6 +61,7 @@ Below are screenshots showing different parts of the application:
 ### Deployment
 
 Deploy this application using Vercel by linking your GitHub repository. Vercel automatically deploys the project and provides a live URL.
+https://react-learning-phase-j3u7.vercel.app/
 
 ### Contributing
 
